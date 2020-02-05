@@ -3,16 +3,16 @@
 ## for the [BirdSounder](birdsounder.xyz), bird call identification web application
 
 ### use requests and beautiful soup to scrape bird call audio from [xeno-canto.org]  
-[BirdScraper.ipynb](../blob/master/BirdScraper.ipynb)  
+[BirdScraper.ipynb](../master/BirdScraper.ipynb)  
 
 ### cut the raw call data into clips 
-[FileCleanup.ipynb](../blob/master/FileCleanup.ipynb)
+[FileCleanup.ipynb](../master/FileCleanup.ipynb)
 
 ![raw audio image](https://github.com/chrisseymour/birdsounder-model/raw/master/src/raw-audio.png)
 ![clipped audio image](https://github.com/chrisseymour/birdsounder-model/raw/master/src/clipped-audio.png)
 
 ### feature extraction and .csv writer to feed the model  
-[FeatureExtraction.ipynb](../blob/master/FeatureExtraction.ipynb)
+[FeatureExtraction.ipynb](../master/FeatureExtraction.ipynb)
 `WriteLine` function also used when processing user-uploaded audio in web app.  
 
 Feature Examples:
@@ -29,7 +29,7 @@ Feature Examples:
 - Constant Q-Power spectrogram, most prominent frequency  
 
 ### train the model, hyperparameter tuning, perform validation  
-[DeployModel.ipynb](../blob/master/DeployModel.ipynb)  
+[DeployModel.ipynb](../master/DeployModel.ipynb)  
 
 pandas dataframe  
 sklearn Gradient Boosting Classifier  
