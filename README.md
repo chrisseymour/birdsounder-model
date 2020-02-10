@@ -1,6 +1,6 @@
 #BirdSounder
 ## Data scraping, feature extraction, and model building code  
-## for the [BirdSounder](birdsounder.xyz), bird call identification web application
+## for the [BirdSounder](http://birdsounder.xyz), bird call identification web application
 
 ### use requests and beautiful soup to scrape bird call audio from [xeno-canto.org]  
 [BirdScraper.ipynb](../master/BirdScraper.ipynb)  
