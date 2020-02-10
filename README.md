@@ -37,7 +37,7 @@ sklearn Gradient Boosting Classifier
 
 confusion matrix   
 
-(/images/confusion15.png)  
+![confusion matrix](/images/confusion15.png)  
 
 hyperparameter tuning  
 0.658 weighted f1 score for 15 classes  
