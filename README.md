@@ -33,12 +33,16 @@ Feature Examples:
 
 pandas dataframe  
 sklearn Gradient Boosting Classifier  
+`from sklearn.ensemble import GradientBoostingClassifier`
+
+confusion matrix   
+
+(/images/confusion15.png)  
 
 hyperparameter tuning  
-
-confusion matrix  
+0.658 weighted f1 score for 15 classes  
+best parameters `{'learning_rate': 0.2, 'loss': 'deviance', 'max_depth': 4, 'n_estimators': 125}`
 
 accuracy, precision, recall, f1-score
-
 
 
